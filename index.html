@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Font Family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animation OnScroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="./build/owl.carousel.min.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="bg-[url('./Images/background.webp')] min-h-screen">
+      <header class="sticky top-0 z-50">
+        <nav
+          class="relative flex flex-wrap items-center w-full p-10 bg-yellow-400 nav navbar-default"
+        >
+          <a href="#" class="p-2 mr-4"
+            ><span
+              class="text-2xl font-bold tracking-wide text-white uppercase lg:mx-16"
+              >Demo</span
+            ></a
+          >
+          <button
+            class="inline-flex p-3 ml-auto text-black transition-all duration-150 ease-in-out delay-75 rounded hover:bg-orange-600 nav-toggler lg:hidden"
+            data-target="#navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#ffffff"
+              class=""
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+          </button>
+
+          <div
+            class="hidden w-full top-nav lg:inline-flex lg:flex-grow lg:w-auto"
+            id="navigation"
+          >
+            <div
+              class="flex flex-col lg:inline-flex lg:flex-row lg:ml-auto lg:mx-16"
+            >
+              <a
+                href="#"
+                class="px-3 py-2 font-extrabold text-white rounded lg:inline-flex lg:w-auto font-sans1 hover:text-white hover:bg-orange-600"
+              >
+                <span> Home </span></a
+              >
+              <a
+                href="#"
+                class="px-3 py-2 font-extrabold text-white rounded lg:inline-flex lg:w-auto font-sans1 hover:text-white hover:bg-orange-600"
+              >
+                <span> About </span></a
+              >
+              <a
+                href="#"
+                class="px-3 py-2 font-extrabold text-white rounded lg:inline-flex lg:w-auto font-sans1 hover:text-white hover:bg-orange-600"
+              >
+                <span> Service </span></a
+              >
+              <a
+                href="#"
+                class="px-3 py-2 font-extrabold text-white rounded lg:inline-flex lg:w-auto font-sans1 hover:text-white hover:bg-orange-600"
+              >
+                <span> Career </span></a
+              >
+            </div>
+          </div>
+        </nav>
+        <!-- NavBar End -->
+      </header>
+      <!-- header End -->
+      <!-- HeroSection -->
+      <section class="">
+        <div
+          class="flex container mx-auto sm:justify-center justify-center md:justify-start items-center min-h-screen bg-[url('./Images/banner_bg.png')] bg-no-repeat bg-cover bg-top"
+        >
+          <div
+            data-aos="fade-right"
+            class="flex-col p-5 sm:p-10 md:p-10 lg:p-10 border-0 w-[33rem] space-y-10 sm:space-y-10 md:space-y-10 lg:space-y-10"
+          >
+            <h1
+              class="font-sans text-2xl font-extrabold text-white sm:text-5xl"
+            >
+              Best Highlights Of The Latest
+            </h1>
+            <p class="text-lg font-thin text-white font-sans1">
+              Best Highlights Of The Latest Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Quis ipsum
+            </p>
+            <button
+              class="p-4 text-sm text-white transition-all duration-1000 ease-in-out delay-1000 bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-500 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 px-9"
+            >
+              Watch Tutorial
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- HeroSection End -->
+      <!-- About Section -->
+      <div class="container items-center mx-auto lg:flex">
+        <div data-aos="fade-right" class="flex flex-1 lg:h-min">
+          <img src="./Images/aboutus.webp" alt="Dragon" class="lg:max-w-xl" />
+        </div>
+        <div class="flex-col flex-1 p-10 space-y-5">
+          <div data-aos="fade-left" class="flex-col items-start p-5 text-left">
+            <h1
+              class="font-sans text-2xl font-extrabold text-white lg:text-5xl"
+            >
+              Find out about us in history
+            </h1>
+          </div>
+          <div data-aos="fade-right" class="flex p-5 text-white">
+            <p class="text-lg leading-10 font-sans1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="items-start p-5 gap-x-5 lg:flex">
+            <button
+              class="p-5 text-center text-white transition-all duration-1000 ease-in-out delay-1000 bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-500 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 px-9"
+            >
+              Install Now
+            </button>
+            <button
+              class="p-5 text-center text-white transition-all duration-1000 ease-in-out delay-1000 bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-500 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400"
+            >
+              Watch Tutorial
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- About Section End -->
+      <!-- Live streams -->
+      <div class="container  lg:flex items-center justify-between  space-x-32 mx-auto lg:p-20">
+        <div
+          class="flex flex-col items-start justify-between flex-1 "
+        >
+          <h1
+            class="relative font-sans text-4xl font-bold leading-snug text-white"
+          >
+            <span
+              class="after:bg-[url('./Images/Shape.png')] after:absolute after:h-32 after:w-32 after:bg-no-repeat after:-top-11 after:-left-9"
+              >live</span
+            >
+            <br />
+            <span>Streams</span>
+          </h1>
+          <button
+            class="p-5 text-center text-white hover:transition-all hover:duration-500 hover:ease-linear hover:delay-75 bg-gradient-to-r from-yellow-400 via-yellow-400 to-orange-500 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 px-9"
+          >
+            <span class="text-white">Install Now</span>
+          </button>
+        </div>
+        <div class="flex flex-1  ">
+          <div class="owl-carousel owl-theme ">
+            <div class="item bg-[url('./Images/gallery_item_1.png')] h-96 bg-no-repeat bg-cover bg-center "></div>
+            <div class="item bg-[url('./Images/gallery_item_2.png')] h-96 bg-no-repeat bg-cover bg-center "></div>
+            <div class="item bg-[url('./Images/gallery_item_3.png')] h-96 bg-no-repeat bg-cover bg-center "></div>
+            <div class="item bg-[url('./Images/gallery_item_4.png')] h-96 bg-no-repeat bg-cover bg-center "></div>
+            <div class="item bg-[url('./Images/gallery_item_5.png')] h-96 bg-no-repeat bg-cover bg-center "></div>
+            <div class="item bg-[url('./Images/gallery_item_6.png')] h-96 bg-no-repeat bg-cover bg-center "></div>
+            
+        </div>
+        </div>
+      </div>
+      <!-- Live Stream End -->
+      <!-- Latest War Fight -->
+      <div class="container flex-col mx-auto space-y-20 lg:p-32">
+        <div class="flex justify-center flex-1 p-10">
+          <h1
+            data-aos="fade-up"
+            class="font-sans text-6xl font-medium text-white"
+          >
+            Latest War Fight
+          </h1>
+        </div>
+        <div class="relative">
+          <div
+            data-aos="fade-up"
+            class="flex 
+            flex-1 
+            flex-col bg-[url('./Images/latest_war.png')] 
+            bg-cover 
+            bg-top 
+            bg-no-repeat 
+            h-[39rem] 
+            p-10 
+            after:hover:absolute 
+            after:hover:bg-yellow-400 
+            after:hover:h-[39rem] 
+            after:hover:w-full 
+            after:hover:top-0 
+            after:hover:left-0 
+            after:hover:bg-opacity-60 
+            justify-center 
+            items-center 
+            space-y-8"
+          >
+            <img src="./Images/xfavicon.png " class="w-16 h-10" alt="" />
+            <h1 class="text-xl text-white">open War Challange</h1>
+            <p class="text-xl text-white">27 may , 2022</p>
+            <a href="#" class="text-white">View Fight</a>
+            <div class="flex items-center justify-between space-x-20 w-max">
+              <img src="./Images/xwar_logo_1.png" alt="" />
+              <h1 class="text-4xl font-bold text-white">
+                190 <span> vs </span>189
+              </h1>
+              <img src="./Images/xwar_logo_2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="items-center justify-center xl:flex">
+          <div data-aos="fade-right" class="flex flex-col flex-1">
+            <div class="flex justify-between">
+              <div class="flex items-center flex-1 p-5 space-x-4">
+                <img src="./Images/xwar_logo_1.png" class="h-12" alt="" />
+                <h1 class="text-white">190 <span> vs </span> 189</h1>
+                <img src="./Images/xwar_logo_2.png" class="h-12" alt="" />
+              </div>
+              <div class="flex flex-col flex-1 p-5">
+                <a
+                  href="#"
+                  class="font-sans text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400"
+                  >22 may 2022</a
+                >
+                <p class="font-sans text-white">Open war challenge</p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex items-center flex-1 p-5 space-x-4">
+                <img src="./Images/xwar_logo_1.png" class="h-12" alt="" />
+                <h1 class="text-white">190 <span> vs </span> 189</h1>
+                <img src="./Images/xwar_logo_2.png" class="h-12" alt="" />
+              </div>
+              <div class="flex flex-col flex-1 p-5">
+                <a
+                  href="#"
+                  class="font-sans text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400"
+                  >22 may 2022</a
+                >
+                <p class="font-sans text-white">Open war challenge</p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex items-center flex-1 p-5 space-x-4">
+                <img src="./Images/xwar_logo_1.png" class="h-12" alt="" />
+                <h1 class="text-white">190 <span> vs </span> 189</h1>
+                <img src="./Images/xwar_logo_2.png" class="h-12" alt="" />
+              </div>
+              <div class="flex flex-col flex-1 p-5">
+                <a
+                  href="#"
+                  class="font-sans text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400"
+                  >22 may 2022</a
+                >
+                <p class="font-sans text-white">Open war challenge</p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex items-center flex-1 p-5 space-x-4">
+                <img src="./Images/xwar_logo_1.png" class="h-12" alt="" />
+                <h1 class="text-white">190 <span> vs </span> 189</h1>
+                <img src="./Images/xwar_logo_2.png" class="h-12" alt="" />
+              </div>
+              <div class="flex flex-col flex-1 p-5">
+                <a
+                  href="#"
+                  class="font-sans text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400"
+                  >22 may 2022</a
+                >
+                <p class="font-sans text-white">Open war challenge</p>
+              </div>
+            </div>
+          </div>
+          <div  class="relative ">
+            <div
+            data-aos="fade-left"
+            class="
+            flex 
+            flex-1
+            flex-col 
+            p-12 
+            bg-[url('./Images/latest_war_img_1.png.webp')] 
+            h-screen 
+            bg-no-repeat 
+            bg-cover 
+            bg-top
+            after:hover:absolute 
+            after:hover:bg-yellow-400 
+            after:hover:h-screen  
+            after:hover:top-0
+            after:hover:left-0
+            after:hover:right-0   
+            after:hover:bg-opacity-40
+            hover:transition
+            hover:duration-300
+            hover:ease-in-out
+            hover:delay-500
+            justify-center 
+            items-center 
+            space-y-8">
+            <img src="./Images/xfavicon.png " class="z-10 w-16 h-10" alt="" />
+            <h1 class="z-10 text-xl text-white">open War Challange</h1>
+            <p class="z-10 text-xl text-white">27 may , 2022</p>
+            <a href="#" class="z-10 text-white">View Fight</a>
+            <div class="z-10 flex items-center justify-between space-x-10 w-max">
+              <img src="./Images/xwar_logo_1.png" class="z-10 h-20" alt="" />
+              <h1 class="z-10 text-4xl font-bold text-white">
+                190 <span> vs </span>189
+              </h1>
+              <img src="./Images/xwar_logo_2.png" class="z-10 h-20" alt="" />
+            </div>
+        </div>
+        
+          </div>
+        </div>
+      </div>
+      <!-- Latest War fight End -->
+      <!-- All Fighter -->
+      <div class="container flex flex-col mx-auto lg:p-10 gap-y-10">
+        <div class="flex justify-center flex-1 p-10 ">
+            <h1
+              data-aos="fade-up"
+              class="font-sans text-4xl font-medium text-white md:text-6xl"
+            >
+              Latest War Fight
+            </h1>
+          </div>
+          <div class="gap-10 space-y-10 lg:flex">
+              <div data-aos="fade-left" class="flex flex-1   bg-[url('./Images/gallery_item_1.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+              <div data-aos="fade-up" class="flex flex-1   bg-[url('./Images/gallery_item_2.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+              <div data-aos="fade-right" class="flex flex-1   bg-[url('./Images/gallery_item_3.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+              <div data-aos="fade-down" class="flex flex-1   bg-[url('./Images/gallery_item_4.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+          </div>
+          <div class="gap-10 space-y-10 lg:flex">
+              <div data-aos="fade-up" class="flex flex-1   bg-[url('./Images/gallery_item_5.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+              <div data-aos="fade-right" class="flex flex-1   bg-[url('./Images/gallery_item_6.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+              <div data-aos="fade-down" class="flex flex-1   bg-[url('./Images/gallery_item_7.png')] bg-cover bg-no-repeat bg-center h-72"></div>
+          </div>
+      </div>
+      <!-- All Fighter End -->
+      <!-- UpComing Fighter -->
+      <div class="container flex-col mx-auto  ">
+          <div class="flex flex-1 p-10  items-center justify-center text-center text-white">
+              <h1 data-aos="fade-up" class="text-4xl font-sans font-bold">Upcoming Fighter</h1>
+          </div>
+          <div class="flex flex-1  justify-center items-center h-screen bg-[url('./Images/event_bg.png.webp')] bg-no-repeat bg-contain lg:bg-cover bg-center ">
+              <div class="flex-col  p-10">
+                  <div class="flex flex-1 justify-center  p-10">
+                    <h1 class="text-white text-xl font-sans">Dark Dragon</h1>
+                  </div>
+                  <div class="flex flex-1  p-10 ">
+                    <div class="flex flex-col text-center  text-white flex-1  p-10">
+                      <span class="text-4xl">-900</span>
+                      <span class="text-2xl">Days</span>
+                    </div>
+                    <div class="flex flex-col text-white flex-1  p-10">
+                      <span class="text-4xl">18</span>
+                      <span class="text-2xl">Hours</span>
+
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- UpComing Fighter End -->
+      <!-- Footer -->
+            <div class=" bg-slate-900 lg:flex  space-y-10 sm:space-y-0  w-full  lg:p-20">
+                <div class="flex-col flex-1  p-20  lg:p-0 md:p-20 space-y-5 md:px-48 lg:px-0 ">
+                  <div class="flex flex-1 space-x-5 ">
+                    <img src="./Images/xfavicon.png" alt="">
+                    <h1 class="text-white text-3xl font-sans">Demo</h1>
+                  </div>
+                  <div class="flex  p-5 flex-1">
+                    <p class="text-white text-lg font-sans1 font-normal">
+                      Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open
+                    </p>
+                  </div>
+                </div>
+                <div class="flex-col flex-1 p-20 md:p-20   lg:p-0 md:px-48 lg:px-0 space-y-10 ">
+                  <div class="flex  flex-1 justify-start items-start">
+                    <h1 class="text-white text-3xl font-sans first-letter:" >Contact Info</h1>
+                  </div>
+                  <div class="flex-col  space-y-5 font-sans1 font-light text-lg text-white flex-1">
+                    <h1>Address:Your address goes here,</h1>
+                    <h1>Your demo address Pakistan</h1>
+                    <h1>Phone : 0316-xxxxx-x</h1>
+                    <h1>Email:info@demo.com</h1>
+
+                  </div>
+                </div>
+                <div class="flex-col flex-1  p-20 md:p-20 lg:px-0 lg:p-0 md:px-48 space-y-10 ">
+                  <div class="flex  flex-1 justify-start items-start">
+                    <h1 class="text-white text-3xl font-sans first-letter:" >Important Link</h1>
+                  </div>
+                  <div class="flex-col  space-y-5 font-sans1 font-light text-lg text-white flex-1">
+                    <h1>WHCMS-bridge</h1>
+                    <h1>Search Domain</h1>
+                    <h1>My Account</h1>
+                    <h1>Shopping Cart</h1>
+                    <h1>Our Shop</h1>
+                  </div>
+                </div>
+                <div class="flex-col flex-1  p-20 md:p-20 lg:px-0 lg:p-0 md:px-48 space-y-10 ">
+                  <div class="flex  flex-1 justify-start items-start">
+                    <h1 class="text-white text-3xl font-sans first-letter:" >Newsletter</h1>
+                  </div>
+                  <div class="flex-col  space-y-5 font-sans1 font-light text-xl text-white flex-1">
+                    <p>
+                      Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open
+                    </p>
+                  </div>
+                </div>
+            </div>
+      <!-- Footer End -->
+      <!-- Copyright -->
+      <div class="md:flex justify-center items-center  w-full ">
+        <div class="flex flex-1  p-10">
+          <p class="text-white font-sans1 font-thin text-lg">Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
+        </div>
+        <div class="flex justify-center md:w-56  p-10 gap-x-5">
+          <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+          <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" /></svg> 
+          <svg class="h-8 w-8 text-indigo-400"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+          </svg>
+                  </div>
+      </div>
+    </div>
+    <!-- Jquery -->
+    <script src="./javascript/jquery.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="./javascript/owl.carousel.min.js"></script>
+    <!-- Animation Onscroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Javascript -->
+    <script src="./javascript/js.js"></script>
+    <script>
+      AOS.init({
+        duration: 400,
+        delay: 200,
+      });
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:5,
+          nav:true,
+          dots:false,
+          autoplay:true,
+          
+          duration:1,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:2
+              }
+          }
+})
+    </script>
+  </body>
+</html>
